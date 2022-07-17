@@ -14,6 +14,7 @@ import node from '../assets/node.png'
 import express from '../assets/express.png'
 import mongo from '../assets/mongo.png'
 import npm from '../assets/npm.png'
+import firebase from '../assets/firebase.png'
 
 const Skills = () => {
   const techs = [
@@ -73,30 +74,36 @@ const Skills = () => {
     },
     {
       id: 10,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 11,
       src: node,
       title: "node.js",
       style: "shadow-green-600",
     },
     {
-      id: 11,
+      id: 12,
       src: express,
       title: "Express.js",
       style: "shadow-gray-700",
     },
     {
-      id: 12,
+      id: 13,
       src: mongo,
       title: "mongoDB",
       style: "shadow-red-900",
     },
     {
-      id: 13,
+      id: 14,
       src: npm,
       title: "NPM",
       style: "shadow-red-400",
     },
     {
-      id: 14,
+      id: 15,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
