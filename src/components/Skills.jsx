@@ -15,6 +15,7 @@ import express from '../assets/express.png'
 import mongo from '../assets/mongo.png'
 import npm from '../assets/npm.png'
 import firebase from '../assets/firebase.png'
+import wordpress from '../assets/wordpress.png'
 
 const Skills = () => {
   const techs = [
@@ -95,6 +96,7 @@ const Skills = () => {
       src: mongo,
       title: "mongoDB",
       style: "shadow-red-900",
+  
     },
     {
       id: 14,
@@ -107,6 +109,12 @@ const Skills = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 16,
+      src: wordpress,
+      title: "Wordpress",
+      style: "shadow-blue-400",
     },
   ];
 
