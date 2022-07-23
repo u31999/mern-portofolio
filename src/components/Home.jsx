@@ -2,6 +2,7 @@ import React from "react";
 import HeroImage from "../assets/heroImage.jpeg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import BoxThreeD from "./BoxThreeD";
 
 const Home = () => {
   return (
@@ -37,11 +38,19 @@ const Home = () => {
         </div>
 
         <div>
+        {
+          /*
+        <BoxThreeD />
+        */
+        
+          
           <img
             src={HeroImage}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
+        }
+          
         </div>
       </div>
     </div>
